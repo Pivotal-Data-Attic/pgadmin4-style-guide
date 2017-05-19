@@ -5,64 +5,64 @@ name: typography
 category: typography
 ---
 
-Blog fanny pack ethical aesthetic food truck tacos, kale chips beard neutra pinterest meditation pour-over hoodie. Tbh try-hard art party, drinking vinegar farm-to-table slow-carb hella selfies kombucha pork belly intelligentsia yuccie gochujang.
+Font Typography
 
 ```html_example_table
-<h1 class="mvxl">Hey, what's up, hello?</h1>
+<div class="text-14">
+  Body 14 px Helvetica Neue
+</div>
 
-<h2 class="mvxl">Hey, what's up, hello?</h2>
+<div class="text-14 text-bold">
+  Body 14 px Helvetica Neue bold
+</div>
 
-<h3 class="mvxl">Hey, what's up, hello</h3>
+<div class="text-13">
+  Body 13 px Helvetica Neue
+</div>
 
-<h4 class="mvxl">Hey, what's up, hello</h4>
+<div class="text-13 text-bold">
+  Body 13 px Helvetica Neue bold
+</div>
 
-<h5 class="mvxl">Hey, what's up, hello</h5>
+<div class="text-12">
+  Body 12 px Helvetica Neue
+</div>
 
-<p class="mvxl">Hey, what's up, hello</p>
+<div class="text-12 text-bold">
+  Body 12 px Helvetica Neue bold
+</div>
 
+<div class="text-11">
+  Body 11 px Helvetica Neue
+</div>
+
+<div class="text-11 text-bold">
+  Body 11 px Helvetica Neue bold
+</div>
 ```
 
 */
 
-
-h1 {
-  font-size: 36px;
-  font-weight: lighter;
+.text-bold {
+  font-weight: bold;
 }
 
-h2 {
-  font-size: 25px;
-  font-weight: lighter;
+.text-14 {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
 }
 
-h3 {
-  font-size: 20px;
+.text-13 {
+  font-family: "Helvetica Neue";
+  font-size: 13px;
 }
 
-h4 {
-  font-size: 18px;
+.text-12 {
+  font-family: "Helvetica Neue";
+  font-size: 12px;
 }
 
-h5 {
-  font-size: 16px;
-}
-
-.text-secondary {
-	color: #6f6f6f;
-}
-
-.type-light {
-  color: #fff;
-}
-
-.em-mid {
-  font-weight: 500;
-}
-
-.em-normal {
-  font-weight: normal;
-}
-
-.em-low {
-	font-weight: lighter;
+.text-11 {
+  font-family: "Helvetica Neue";
+  font-size: 11px;
 }

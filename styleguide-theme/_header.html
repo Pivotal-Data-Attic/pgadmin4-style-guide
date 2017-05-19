@@ -4,33 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Acme Styleguide <%= title.length > 0 ? '|' : '' %> <%= title %></title>
+    <title>pgAdmin4 Styleguide <%= title.length > 0 ? '|' : '' %> <%= title %></title>
     <link rel="shortcut icon" href="static/favicon.ico" />
 
     <!-- Search engines -->
-    <meta name="description" content="A boilerplate for creating front-end style guides, powered by Hologram.">
+    <meta name="description" content="pgAdmin4 style guide, powered by Hologram.">
     <!-- Google Plus -->
     <!-- Update your html tag to include the itemscope and itemtype attributes. -->
     <!-- html itemscope itemtype="http://schema.org/{CONTENT_TYPE}" -->
     <meta itemprop="image" content="http://acme-styleguide.cfapps.io/static/favicon.ico">
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="A boilerplate for creating front-end style guides, powered by Hologram.">
-    <meta name="twitter:site" content="@mattrothenberg">
-    <meta name="twitter:title" content="Acme Styleguide">
-    <meta name="twitter:description" content="A boilerplate for creating front-end style guides, powered by Hologram.">
-    <meta name="twitter:creator" content="@mattrothenberg">
-    <meta name="twitter:image:src" content="http://acme-styleguide.cfapps.io/static/favicon.ico">
-    <!-- Open Graph General (Facebook & Pinterest) -->
-    <meta property="og:url" content="http://acme-styleguide.cfapps.io">
-    <meta property="og:title" content="Acme Styleguide">
-    <meta property="og:description" content="A boilerplate for creating front-end style guides, powered by Hologram.">
-    <meta property="og:site_name" content="Acme Styleguide">
-    <meta property="og:image" content="http://acme-styleguide.cfapps.io/static/favicon.png">
-    <meta property="og:type" content="article">
-    <meta property="og:locale" content="en_us">
-
-  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
 
@@ -41,7 +24,7 @@
     <link rel="stylesheet" href="static/css/github.css">
 
     <!-- CSS to be documented -->
-    <link rel="stylesheet" href="built-styles/css/style.css">
+    <link rel="stylesheet" href="built-styles/css/pgadmin.css">
 
 </head>
   <body class="<%= @blocks.length > 1 ? 'category-nav-showing' : '' %>">
@@ -51,10 +34,10 @@
           <div class="col-sm-12">
             <div class="media">
               <div class="media-left media-middle">
-                <img class="styleguide-logo" src="static/acme-logo.svg" alt="">
+                <img class="styleguide-logo" src="static/pgAdmin4-logo.png" alt="">
               </div>
               <div class="media-body media-middle">
-                <h1 class="h4 em-mid type-light m-y-0">Acme Inc.</h1>
+                <h1 class="h4 em-mid type-light m-y-0">pgAdmin4 Inc.</h1>
                 <h2 class="h6 em-normal type-light m-t-1">Front-end styleguide</h2>
               </div>
               <div class="media-right media-middle">
@@ -74,6 +57,7 @@
                 <li><a class="btn btn-block btn-nav m-y-1 <%= 'active' if title == 'typography' %>" href="typography.html">Typography</a></li>
                 <li><a class="btn btn-block btn-nav m-y-1 <%= 'active' if title == 'components' %>" href="components.html
                 ">Components</a></li>
+                <li><a class="btn btn-block btn-nav m-y-1 <%= 'active' if title == 'alerts' %>" href="alerts.html">Alerts</a></li>
               </ul>
             </div>
           </div>
