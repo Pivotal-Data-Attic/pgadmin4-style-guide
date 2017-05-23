@@ -32,6 +32,17 @@ category: alerts
   </div>
 </div>
 
+<div class="alert alert-info font-blue text-14 alert-box">
+  <div class="media">
+    <div class="media-body media-middle">
+      <div class="alert-text">
+        This is a neutral message
+      </div>
+    </div>
+  </div>
+</div>
+
+
 ```
 */
 
@@ -47,3 +58,5 @@ category: alerts
   display: table-cell;
   padding-left: 10px;
 }
+
+.alert-info { border-color: #84acdd }

@@ -22,7 +22,7 @@ body {
 }
 
 .side-nav {
-  background: #008FED;
+  background: #e8e8e8;
   display: block;
   padding: 25px 0;
   position: fixed;
@@ -44,7 +44,6 @@ body {
 
 .styleguide-logo {
   height: 50px;
-  opacity: .5;
   width: auto;
 }
 
@@ -62,7 +61,7 @@ body {
 
 .btn-nav {
   background: transparent;
-  color: white;
+  color: #2c76b4;
   font-weight: 500;
   text-align: left !important;
   transition: color .2s ease-out,
@@ -72,9 +71,9 @@ body {
 .btn-nav.active,
 .btn-nav:visited,
 .btn-nav:hover {
-  background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(255, 255, 255, .5);
   box-shadow: none;
-  color: #fff;
+  color: #2c76b4;
 }
 
 .btn-nav:focus {

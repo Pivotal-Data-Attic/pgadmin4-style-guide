@@ -7,3 +7,4 @@
 static.json
 
 /**/*.DS_Store
+.idea
