@@ -1,6 +1,6 @@
 ---
 applications:
-- name: acme-styleguide
+- name: pgadmin4-styleguide
   memory: 256M
   path: ./styleguide-dist/
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
