@@ -9,5 +9,35 @@ Below are the colors for pgadmin4. To use, copy and paste the hex codes into the
 
 The current app may have more colors than what is included here. When a color is encountered in the app that is not documented here, default to replacing that color with one that is documented here.
 
+Each color listed on this page can be used for Background, Font, and Border. Pre-pend each class name with <strong>.bg-</strong> or <strong>.font-</strong> or <strong>.border-</strong> to use as background or border.
 
+<h5>
+  Example:
+</h5>
+<div>
+  To use a background color use the class:
+</div>
+<div class="codeBlock">
+  <div class="highlight">
+    <pre>bg-color-yellow</pre>
+  </div>
+</div>
+
+<div>
+  To use a border color use the class:
+</div>
+<div class="codeBlock">
+  <div class="highlight">
+    <pre>border-color-yellow</pre>
+  </div>
+</div>
+
+<div>
+  To use a font color use the class:
+</div>
+<div class="codeBlock">
+  <div class="highlight">
+    <pre>font-color-yellow</pre>
+  </div>
+</div>
 */

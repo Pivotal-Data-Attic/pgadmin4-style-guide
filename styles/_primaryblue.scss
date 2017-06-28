@@ -34,6 +34,16 @@ This color should be used to call attention to the main part of the app. Use spa
   width: 100%;
 }
 
+$primary-blue: #2c76b4;
+
 .bg-primary-blue {
-    background-color: #2c76b4;
+  background-color: $primary-blue;
+}
+
+.border-primary-blue {
+  border-color: $primary-blue;
+}
+
+.font-primary-blue {
+  color: $primary-blue;
 }
