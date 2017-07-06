@@ -10,7 +10,7 @@ category: alerts
   <div class="alert alert-success border-green-2 font-green-3 text-14 alert-box">
     <div class="media">
       <div class="media-body media-middle">
-        <div class="alert-icon">
+        <div class="alert-icon success-icon">
           <i class="fa fa-check" aria-hidden="true"></i>
         </div>
         <div class="alert-text">
@@ -25,7 +25,7 @@ category: alerts
   <div class="alert alert-danger border-red-2 font-red-3 text-14 alert-box">
     <div class="media">
       <div class="media-body media-middle">
-        <div class="alert-icon">
+        <div class="alert-icon error-icon">
           <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
         </div>
         <div class="alert-text">
@@ -62,6 +62,19 @@ category: alerts
 
 .alert-icon {
   display: inline-block;
+  color: white;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 14px;
+}
+
+.success-icon {
+  background: #3a773a;
+}
+
+.error-icon {
+  background: #d0021b;
 }
 
 .alert-text {
@@ -70,6 +83,6 @@ category: alerts
 }
 
 .media-body {
-  display: inline;
+  display: table-row;
   vertical-align: top;
 }
