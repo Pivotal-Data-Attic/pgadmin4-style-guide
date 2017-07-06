@@ -2,7 +2,6 @@ $font-family-sans-serif: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI"
 
 @import 'bootstrap/bootstrap';
 @import 'variables';
-@import 'alert';
 @import 'buttons';
 @import 'cards';
 @import 'colorsgrey';
@@ -17,5 +16,6 @@ $font-family-sans-serif: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI"
 @import 'primaryblue';
 @import 'colorsoverview';
 @import 'othercolors';
+@import 'alert';
 
 @include scrollbars(8px, darken(#ddd, 18%));
