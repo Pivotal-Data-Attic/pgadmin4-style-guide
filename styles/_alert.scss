@@ -56,8 +56,12 @@ category: alerts
 }
 
 .alert-box {
-  padding: 15px;
+  padding: 0px;
   display: inline-block;
+}
+
+.alert.alert-info {
+  padding: 15px;
 }
 
 .alert-icon {
@@ -83,6 +87,6 @@ category: alerts
 }
 
 .media-body {
-  display: table-row;
+  display: inline;
   vertical-align: top;
 }
