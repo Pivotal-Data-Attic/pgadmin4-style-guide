@@ -79,10 +79,12 @@ These colors should be used to highlight hover options in dropdown menus and cat
   width: 100%;
 }
 
+$color-blue-2: #84acdd;
 $color-red-1: #f2dede;
 $color-red-2: #de8585;
 $color-red-3: #d0021b;
 $color-green-2: #a2c189;
+$color-green-3: #3a773a;
 
 .bg-white-1 {
   background-color: #ffffff;
@@ -93,7 +95,7 @@ $color-green-2: #a2c189;
 }
 
 .bg-blue-2 {
-  background-color: #84acdd;
+  background-color: $color-blue-2;
 }
 
 .bg-red-1 {
@@ -117,7 +119,7 @@ $color-green-2: #a2c189;
 }
 
 .bg-green-3 {
-  background-color: #3a773a;
+  background-color: $color-green-3;
 }
 
 .border-blue-1 {
@@ -125,7 +127,7 @@ $color-green-2: #a2c189;
 }
 
 .border-blue-2 {
-  border-color: #84acdd;
+  border-color: $color-blue-2;
 }
 
 .border-red-1 {
@@ -149,7 +151,7 @@ $color-green-2: #a2c189;
 }
 
 .border-green-3 {
-  border-color: #3a773a;
+  border-color: $color-green-3;
 }
 
 .font-red-3 {
@@ -157,7 +159,7 @@ $color-green-2: #a2c189;
 }
 
 .font-green-3 {
-  color: #3a773a;
+  color: $color-green-3;
 }
 
 .font-white {

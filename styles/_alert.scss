@@ -51,8 +51,22 @@ category: alerts
 ```
 */
 
+.alert-icon {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 15px 15px 15px 17px;
+  width: 50px;
+  min-height: 50px;
+  font-size: 14px;
+  text-align: center;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
 .alert-row {
   display: block;
+  width: auto;
 }
 
 .alert-box {
@@ -64,67 +78,37 @@ category: alerts
   padding: 15px;
 }
 
-.alert-icon {
-  display: inline-block;
-  color: white;
-  padding: 15px;
-  width: 50px;
-  height: 50px;
-  font-size: 14px;
-}
-
 .success-icon {
-  background: #3a773a;
+  background: $color-green-3;
 }
 
 .error-icon {
-  background: #d0021b;
+  background: $color-red-3;
 }
 
 .alert-text {
   display: inline-block;
   padding: 0 12px 0 10px;
-}
-
-.alert-row {
-  display: block;
-}
-
-.alert-box {
-  padding: 0px;
-  display: inline-block;
-}
-
-.alert-icon {
-  display: inline-block;
-  color: white;
-  padding: 15px;
-  width: 50px;
-  height: 50px;
-  font-size: 14px;
-  text-align: center;
-}
-
-.success-icon {
-  background: #3a773a;
-}
-
-.error-icon {
-  background: #d0021b;
-}
-
-.alert-text {
-  display: inline-block;
-  padding: 0 12px 0 10px;
+  // To make sure IE picks up the correct font
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .alert-info {
-  border-color: #84acdd
+  border-color: $color-blue-2;
+  background-image: none;
 }
 
-.media-body {
-  vertical-align: top;
-  width: initial;
+.alert-danger {
+  background-image: none;
+}
+
+.grid-error, .graph-error {
+  .alert-row {
+    align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .ajs-message {
@@ -141,11 +125,12 @@ category: alerts
   }
 
   .alert-icon {
-    padding: 8px;
+    padding: 8px 8px 8px 10.5px;
     width: 35px;
     height: 35px;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    min-height: auto;
   }
 
   .alert-text {
@@ -153,8 +138,8 @@ category: alerts
     border: 1px solid $color-red-2;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    padding: 7px 12px 5px 10px;
-    border-left: 0px;
+    padding: 7px 12px 6px 10px;
+    border-left: none;
   }
 
   .error-in-footer {
@@ -179,8 +164,17 @@ category: alerts
     height: 35px;
 
     .alert-text {
-      border: 0px;
+      border: none;
     }
   }
 }
 
+//Internet Explorer specific CSS
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .alert-danger {
+    width: 90%;
+  }
+  .alert-info {
+    width: 90%;
+  }
+}
