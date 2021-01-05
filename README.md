@@ -1,4 +1,4 @@
-[![forthebadge](http://forthebadge.com/images/badges/pretty-risque.svg)](http://forthebadge.com)
+<h1> VMware has ended active development of this project, this repository will no longer be updated.</h1><br>[![forthebadge](http://forthebadge.com/images/badges/pretty-risque.svg)](http://forthebadge.com)
 
 # Acme Styleguide
 
